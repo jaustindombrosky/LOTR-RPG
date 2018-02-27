@@ -74,7 +74,6 @@ $(document).ready(function() {
         var charHealth = $("<div class='character-health'>").text(character.health);
         charDiv.append(charName).append(charImage).append(charHealth);
         $(renderArea).append(charDiv);
-        //caps first name
         if (makeChar == 'enemy') {
           $(charDiv).addClass('enemy');
         } else if (makeChar == 'defender') {
