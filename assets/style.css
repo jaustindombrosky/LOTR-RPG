@@ -25,10 +25,7 @@ body {
   #turn-counter {
     font-size: 150%;
   }
-  
-  /*---------------------*/
-  /* Character rendering */
-  /*---------------------*/
+
   .character {
     width: 150px;
     margin: 0px 40px 0px 40px;
@@ -53,9 +50,6 @@ body {
     text-align: center;
   }
   
-  /*---------------------*/
-  /*      Fighting       */
-  /*---------------------*/
   .attack {
     text-align: center;
   }
@@ -87,10 +81,7 @@ body {
     background-color: black;
     color: white;
   }
-  
-  /*---------------------*/
-  /* Available Oponents  */
-  /*---------------------*/
+
   #available-to-attack-section {
     float: right;
   }
@@ -98,14 +89,10 @@ body {
       height: 100px;
   }
   
-  /*---------------------*/
-  /*      Defender       */
-  /*---------------------*/
-  
-  /*#defender {
+  #defender {
     width: 190px;
     height: 160px;
-  }*/
+  }
   #defender-name {
     text-align: center;
   }
@@ -115,17 +102,4 @@ body {
   }
   #defender-health {
     text-align: center;
-  }
-  
-  /*---------------------*/
-  /*   Media Queries     */
-  /*---------------------*/
-  @media only screen and (max-device-width: 768px) {
-    .character {
-      display: block;
-    height: 150px;    
-    }
-    #gameMessage {
-    font-size: 12px;
-    }
   }

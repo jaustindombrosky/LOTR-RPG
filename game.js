@@ -96,9 +96,9 @@ $(document).ready(function() {
         if (areaRender == '#characters-section') {
           $(areaRender).empty();
           for (var key in charObj) {
-            if (charObj.hasOwnProperty(key)) {
-              renderOne(charObj[key], areaRender, '');
-            }
+          if (charObj.hasOwnProperty(key)) {
+          renderOne(charObj[key], areaRender, '');
+          }
           }
         }
         if (areaRender == '#selected-character') {
